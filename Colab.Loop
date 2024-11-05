@@ -1,0 +1,258 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNLFxzzGNNDoLs/0ppHqf5s",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ManjunathReddy9398/Docker-Zero-to-Hero/blob/main/Colab.Loop\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items = [\"Kavya\", \"Manju\", \"Balu\", \"Aravind\", \"Prasanth\"]\n"
+      ],
+      "metadata": {
+        "id": "TydxMpUf9RBI"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items.append(\"Vijay\")"
+      ],
+      "metadata": {
+        "id": "kSBG6mmH9grY"
+      },
+      "execution_count": 17,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kF8EHpF_-p7C",
+        "outputId": "62d79e14-6086-4328-ee2c-05a56b2f96c5"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['Kavya', 'Manju', 'Balu', 'Aravind', 'Prasanth', 'Vijay']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "del items[-1]"
+      ],
+      "metadata": {
+        "id": "7yuGc2sl-ux4"
+      },
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zJW6XBIl-3bA",
+        "outputId": "014e20a8-2a76-48d5-ea46-abad6f5b5e4a"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['Kavya', 'Manju', 'Balu', 'Aravind', 'Prasanth']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 20
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items.append(\"Vijay\")"
+      ],
+      "metadata": {
+        "id": "EAdk97sx_hlg"
+      },
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lS9Qx6ar_nKL",
+        "outputId": "7579c670-daa9-4878-d4b1-76b285c19e25"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['Kavya', 'Manju', 'Balu', 'Aravind', 'Prasanth', 'Vijay']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 22
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items.remove(\"Vijay\")"
+      ],
+      "metadata": {
+        "id": "Pzw_VsWt_sI1"
+      },
+      "execution_count": 23,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0UXwz91Y__I_",
+        "outputId": "3a6fa9f0-9403-451d-a86c-8f5a96bb9a86"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['Kavya', 'Manju', 'Balu', 'Aravind', 'Prasanth']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 24
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items[0] = \"Vijay\""
+      ],
+      "metadata": {
+        "id": "bEVrmVVyAk0S"
+      },
+      "execution_count": 25,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ccy6TlQbAvRh",
+        "outputId": "a17f502e-2df4-4b7f-de4d-8a17c2778154"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['Vijay', 'Manju', 'Balu', 'Aravind', 'Prasanth']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 26
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Puli\" in items)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "twQ2OrkSH8Hc",
+        "outputId": "d5ea322d-9408-4601-c7f2-cd4117090269"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "-qeo6shUIDVe"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
